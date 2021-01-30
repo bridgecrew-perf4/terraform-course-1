@@ -63,7 +63,7 @@ resource "azurerm_resource_group" "rg" {
   location = "westus2"
 }
 
-I've edited mine to have a play around and create two and figure out the naming. DONT FORGET TO SAVE THE FILE, I had trouble where it was picking up nothing after running the next lot of cmds
+# I've edited mine to have a play around and create two and figure out the naming. DONT FORGET TO SAVE THE FILE, I had trouble where it was picking up nothing after running the next lot of cmds
 
 # in cmd run # this cmd initialises everything terraform needs
 terraform init
