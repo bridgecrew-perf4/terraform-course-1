@@ -20,30 +20,30 @@ Manage anything with an APO
 Supports parallel management of resources
 Seperates planning from execution
 
-Remember Syntax https://www.terraform.io/docs/language/syntax/configuration.html
+# Remember Syntax https://www.terraform.io/docs/language/syntax/configuration.html
 
-Reference = https://github.com/hashicorp/hcl/blob/hcl2/hclsyntax/spec.md
+# Reference = https://github.com/hashicorp/hcl/blob/hcl2/hclsyntax/spec.md
 
 
-INSTALLING TERRAFORM
-Using chocolately https://learn.hashicorp.com/tutorials/terraform/install-cli
+# INSTALLING TERRAFORM
+# Using chocolately https://learn.hashicorp.com/tutorials/terraform/install-cli
 
 choco install terraform
 
 
 
 
-#install azure cli
+# install azure cli
 Invoke-WebRequest -Uri https://aka.ms/installazurecliwindows -OutFile .\AzureCLI.msi; Start-Process msiexec.exe -Wait -ArgumentList '/I AzureCLI.msi /quiet'; rm .\AzureCLI.msi
 
-#You can then login with
+# You can then login with
 az login
 
-#It will save the config in your system for terraform to use.
+# It will save the config in your system for terraform to use.
 
-#FIRST BUILD (Folder Test Terraform after Install)
+# FIRST BUILD (Folder Test Terraform after Install)
 
-create a file called main.tf then paste the below
+# create a file called main.tf then paste the below
 
 terraform {
   required_providers {
