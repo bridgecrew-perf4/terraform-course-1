@@ -1,0 +1,24 @@
+Main TF creating
+
+RG
+VNET
+Sub
+Public IP
+NSG
+NIC
+attach pip
+linux vm
+
+terraform TFVards is hardcoding
+location to australiaeast
+system to terraexample
+server to vmterraform
+username to terraadmin
+vnet to 10.0.0.0/16 10.1.0.0/16
+OS to ubuntu 16.04.0 LTS version latest
+
+variables.tf
+referencing some tfvars and setting size of the disk
+password will ask you for input (next challenge is to create a secret and have a vm grab a secret as the password!)
+
+output.tf pumps out the puplic IP
